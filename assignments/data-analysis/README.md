@@ -2,31 +2,61 @@
 
 ## 🎯 Objective
 
-Students will learn the basics of data analysis using Python. They will load, explore, and analyze a dataset to extract meaningful insights.
+Learn core data analysis skills in Python: loading data, exploring structure and quality, visualizing patterns, and drawing concise insights.
+
+## 🔧 Prerequisites
+
+- Python 3.8+
+- pandas, matplotlib (or seaborn)
+- Basic Python knowledge (reading files, functions)
+
+## 📁 Files Provided
+
+- data.csv — dataset to analyze
+- starter-code.py — starter template to begin
 
 ## 📝 Tasks
 
-### 🛠️ Data Loading and Exploration
+### 🛠️ Data Loading & Exploration
 
 #### Description
-Load a provided CSV dataset and perform basic exploration to understand its structure and contents.
+Load the CSV, inspect its structure, detect missing values and basic summaries.
 
 #### Requirements
-Completed program should:
+- Load the CSV (use pandas)
+- Display the first 5 rows
+- Show summary statistics for numeric columns (mean, median, std)
+- Report any missing values and column data types
 
-- Load a CSV file using Python (e.g., with pandas)
-- Display the first 5 rows of the dataset
-- Show summary statistics (mean, median, etc.) for numeric columns
-
-
-### 🛠️ Data Visualization and Insights
+### 🛠️ Visualization & Insights
 
 #### Description
-Create visualizations to help understand the data and summarize key findings.
+Create visualizations that reveal key patterns and support conclusions.
 
 #### Requirements
-Completed program should:
+- Produce at least two different plot types (e.g., histogram, scatter, boxplot)
+- Save plots to a plots/ directory as image files (PNG/JPEG)
+- Write at least two clear insights or trends observed from the data (in INSIGHTS.txt or in this README)
+- Include axis labels and titles on all plots
 
-- Generate at least two different types of plots (e.g., histogram, scatter plot)
-- Identify and describe at least two insights or trends from the data
-- Save the plots as image files
+## ✅ Deliverables
+
+- Completed analysis script (analysis.py or updated starter-code.py)
+- plots/ directory containing image files
+- INSIGHTS.txt (short bullet points describing findings)
+
+## ▶️ How to run
+
+1. Install dependencies:
+
+   pip install pandas matplotlib seaborn
+
+2. Run the analysis script (example):
+
+   python starter-code.py data.csv
+
+3. Check the plots/ folder and INSIGHTS.txt for results
+
+---
+
+If you need an example solution or hints for plotting, ask the instructor or check the starter code comments.
